@@ -12,4 +12,9 @@ python similar_images_TL.py
 
 In the similar_images_TL.py you can change the test folder name and a output folder is automatically created and recommend images are saved. 
 
+
+![alt text](https://github.com/sand47/Outfit-Recomendation/blob/master/output/rec/white60_rec.png)
 ![alt text](https://github.com/sand47/Outfit-Recomendation/blob/master/output/rec/informalred84_rec.png)
+
+![alt text](https://github.com/sand47/Outfit-Recomendation/blob/master/output/rec/tshirtss55_rec.png)
+
