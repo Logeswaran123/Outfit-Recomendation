@@ -1,8 +1,8 @@
 # Outfit-Recomendation
 
-Dress recommendation to users is a challenging task as various kinds of color combination are possible.<br>
+Dress recommendation to users is a challenging task as various kinds of color combination are possible.We have consider men clothing of various color combination which includes colors such as black,white,yellow,blue,organge,gray and various other color. I collected data FROM google images and manually cleaned images to form a training set of and test of <br>
 
-In this project we extract features using VGG16 and recommend k dress(k can be varied) using KNN.<br>
+In this project I have extracted features using VGG16 and recommend k dress(k can be varied) using KNN.<br>
 
 # Training and inference 
 To train the code <br><br>
