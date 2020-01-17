@@ -4,7 +4,7 @@ from keras.preprocessing import image
 from keras.models import Model
 sys.path.append("src")
 
-from vgg19 import VGG19
+from keras.applications import resnet50
 from imagenet_utils import preprocess_input
 from plot_utils import plot_query_answer
 from sort_utils import find_topk_unique
@@ -41,8 +41,8 @@ def main():
     # ================================================
     # Load pre-trained model and remove higher level layers
     # ================================================
-    print("Loading VGG19 pre-trained model...")
-    base_model = VGG19(weights='imagenet')
+    print("Loading resnet50 pre-trained model...")
+    base_model = resnet50(weights='imagenet')
     model = Model(input=base_model.input,
                   output=base_model.get_layer('block4_pool').output)
 
