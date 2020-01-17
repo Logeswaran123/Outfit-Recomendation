@@ -3,7 +3,7 @@
 Dress recommendation to users is a challenging task as various kinds of color combination are possible.I have consider both men formal and informal clothing of various color combination which includes colors such as black, white, yellow, blue, organge, gray and various other color. I collected data from google images and manually cleaned the images to form dataset of 300 images . 
 <br>
 
-In this project I have extracted features using pretrained VGG16 and recommend k dress(k can be varied) using KNN.<br>
+In this project I have extracted features using pretrained Resnet50 and recommend k dress(k can be varied) using KNN.<br>
 
 # Training and inference 
 To train the code <br><br>
